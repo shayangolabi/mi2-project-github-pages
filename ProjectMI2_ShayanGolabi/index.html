@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> Football game </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+	<main>
+        <div class="instructies">
+            <p>Instructies: je kan de bal bewegen aan de hand van de verschillende buttons. Om te winnen moet je met de bal naar de andere goal gaan zonder de defender aan te raken.</p>
+        </div>
+		<div class="screen">
+            <img src="img/field.jpg" alt="Screen" id="imgScreen">
+            <!-- Bron: https://www.vectorstock.com/royalty-free-vector/football-field-vertical-isolated-vector-2005430 -->
+        </div>
+        <div class="buttons">
+                <button id="button_up">up</button>
+                <button id="button_down">down</button>
+                <button id="button_left">left</button>
+                <button id="button_right">right</button>
+        </div>
+        <div class="ball">
+            <img src="img/spriteBall.png" alt="Bal" id="imgBal">
+            <!-- Bron: https://images.app.goo.gl/oPqvkJUrxMUAxPm87 -->
+        </div>
+        <div class="defender">
+            <img src="img/spriteDefender.png" alt="Defender" id="imgDefender">
+            <!-- Bron: https://images.app.goo.gl/oPqvkJUrxMUAxPm87 -->
+        </div>
+        <script src="js/index.js"></script>
+        <script src="js/hammer.js"></script>
+	</main>
+</body>
+</html>

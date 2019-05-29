@@ -1,0 +1,64 @@
+/**
+ * Stylesheet for index
+ *
+ * @author Shayan Golabi
+ *
+ * gemaakt voor scherm iPhone X (dimensies 375 x 812)
+ */
+ 
+.screen img {
+    position: absolute;
+    width: 96vw;
+    height: 98vh;
+}
+
+.instructies p {
+    background-color: lightgray;
+    box-shadow: 8px 9px 26px 0 rgba(46, 61, 73, 0.5); 
+}
+
+.buttons button {
+    position: absolute;
+    text-transform: capitalize;
+    color: lightgray;
+    background-color: transparent;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    padding: 10px 12px;
+}
+
+#button_up {
+    left: 171px;
+    bottom: 230px;
+}
+
+#button_down {
+    left: 162px;
+    bottom: -30px;
+}
+
+#button_left {
+    left: 40px;
+    bottom: 100px; 
+}
+
+#button_right {
+    left: 300px;
+    bottom: 100px;
+}
+
+.ball {
+    position: absolute;
+}
+
+.ball img {
+    width: 35px;
+}
+
+.defender {
+    position: absolute;
+}
+
+.defender img {
+    width: 52px;
+}
